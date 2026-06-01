@@ -17,6 +17,8 @@ permissions:
 jobs:
   release:
     runs-on: ubuntu-latest
+    env:
+      FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}
 
     steps:
       - name: Checkout release repo
@@ -43,3 +45,68 @@ jobs:
           files: releases/${{ steps.release_tag.outputs.tag }}/phantom-movies-${{ steps.release_tag.outputs.tag }}.apk
           generate_release_notes: true
           prerelease: ${{ contains(steps.release_tag.outputs.tag, '-beta') || contains(steps.release_tag.outputs.tag, '-dev') }}
+
+      - name: Authenticate Firebase
+        id: firebase_auth
+        if: ${{ env.FIREBASE_SERVICE_ACCOUNT_JSON != '' }}
+        uses: google-github-actions/auth@v2
+        with:
+          credentials_json: ${{ env.FIREBASE_SERVICE_ACCOUNT_JSON }}
+          token_format: access_token
+          scopes: https://www.googleapis.com/auth/firebase.messaging
+
+      - name: Send update push notification
+        if: ${{ env.FIREBASE_SERVICE_ACCOUNT_JSON != '' }}
+        shell: bash
+        env:
+          ACCESS_TOKEN: ${{ steps.firebase_auth.outputs.access_token }}
+          RELEASE_TAG: ${{ steps.release_tag.outputs.tag }}
+        run: |
+          python3 - <<'PY'
+          import json
+          import os
+          import urllib.request
+
+          tag = os.environ["RELEASE_TAG"]
+          prerelease = "-beta" in tag or "-dev" in tag
+          manifest_path = "app-release-beta.json" if prerelease else "app-release.json"
+          topic = "phantom_app_beta_updates" if prerelease else "phantom_app_updates"
+
+          with open(manifest_path, "r", encoding="utf-8") as file:
+              manifest = json.load(file)
+
+          data = {
+              "type": "app_update",
+              "versionCode": str(manifest.get("versionCode", "")),
+              "version": str(manifest.get("version", "")),
+              "versionName": str(manifest.get("version", "")),
+              "download_url": str(manifest.get("download_url", "")),
+              "play_url": str(manifest.get("play_url", "")),
+              "description": str(manifest.get("body", "")),
+          }
+          payload = {
+              "message": {
+                  "topic": topic,
+                  "data": data,
+                  "android": {
+                      "priority": "high"
+                  }
+              }
+          }
+
+          request = urllib.request.Request(
+              "https://fcm.googleapis.com/v1/projects/phantom-movies/messages:send",
+              data=json.dumps(payload).encode("utf-8"),
+              headers={
+                  "Authorization": "Bearer " + os.environ["ACCESS_TOKEN"],
+                  "Content-Type": "application/json; charset=utf-8",
+              },
+              method="POST",
+          )
+          with urllib.request.urlopen(request, timeout=30) as response:
+              print(response.read().decode("utf-8"))
+          PY
+
+      - name: Skip push notification
+        if: ${{ env.FIREBASE_SERVICE_ACCOUNT_JSON == '' }}
+        run: echo "FIREBASE_SERVICE_ACCOUNT_JSON is not configured; GitHub release was published without sending a push notification."
