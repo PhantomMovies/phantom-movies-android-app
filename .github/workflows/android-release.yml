@@ -9,7 +9,26 @@ permissions:
   contents: write
 
 jobs:
+  dev-release:
+    if: contains(github.ref_name, '-dev')
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout release repo
+        uses: actions/checkout@v4
+
+      - name: Verify dev APK
+        run: test -f "dev-releases/${GITHUB_REF_NAME}/phantom-movies-${GITHUB_REF_NAME}.apk"
+
+      - name: Create dev pre-release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: dev-releases/${{ github.ref_name }}/phantom-movies-${{ github.ref_name }}.apk
+          generate_release_notes: true
+          prerelease: true
+
   release:
+    if: ${{ !contains(github.ref_name, '-dev') }}
     runs-on: ubuntu-latest
 
     steps:
@@ -17,6 +36,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: PhantomMovies/phantom-movies-app
+          token: ${{ secrets.APP_REPO_TOKEN }}
 
       - name: Set up Java
         uses: actions/setup-java@v4
@@ -40,4 +60,4 @@ jobs:
         with:
           files: release/*.apk
           generate_release_notes: true
-          prerelease: ${{ contains(github.ref_name, '-dev') }}
+          prerelease: false
