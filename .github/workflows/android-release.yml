@@ -32,32 +32,15 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout app source
+      - name: Checkout release repo
         uses: actions/checkout@v4
-        with:
-          repository: PhantomMovies/phantom-movies-app
-          token: ${{ secrets.APP_REPO_TOKEN }}
 
-      - name: Set up Java
-        uses: actions/setup-java@v4
-        with:
-          distribution: temurin
-          java-version: "17"
-
-      - name: Make Gradle executable
-        run: chmod +x ./gradlew
-
-      - name: Build APK
-        run: ./gradlew assembleRelease
-
-      - name: Prepare APK
-        run: |
-          mkdir -p release
-          cp app/build/outputs/apk/release/app-release.apk release/phantom-movies-${GITHUB_REF_NAME}.apk
+      - name: Verify release APK
+        run: test -f "releases/${GITHUB_REF_NAME}/phantom-movies-${GITHUB_REF_NAME}.apk"
 
       - name: Create release
         uses: softprops/action-gh-release@v2
         with:
-          files: release/*.apk
+          files: releases/${{ github.ref_name }}/phantom-movies-${{ github.ref_name }}.apk
           generate_release_notes: true
           prerelease: false
