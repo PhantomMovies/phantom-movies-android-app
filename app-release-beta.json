@@ -3,14 +3,14 @@
   "versionName": "1.5.1-dev.2",
   "date": "2026-05-31",
   "body": "First Phantom Movies dev build. This build is for testing the dev update channel and the latest in-progress app changes before they move to stable.",
-  "download_url": "https://github.com/PhantomMovies/phantom-movies-android-app/releases/download/v1.5.1-dev.2/phantom-movies-v1.5.1-dev.2.apk",
+  "download_url": "https://raw.githubusercontent.com/PhantomMovies/phantom-movies-android-app/main/dev-releases/v1.5.1-dev.2/phantom-movies-v1.5.1-dev.2.apk",
   "releases": [
     {
       "versionCode": 10502,
       "versionName": "1.5.1-dev.2",
       "date": "2026-05-31",
       "body": "First Phantom Movies dev build. This build is for testing the dev update channel and the latest in-progress app changes before they move to stable.",
-      "download_url": "https://github.com/PhantomMovies/phantom-movies-android-app/releases/download/v1.5.1-dev.2/phantom-movies-v1.5.1-dev.2.apk"
+      "download_url": "https://raw.githubusercontent.com/PhantomMovies/phantom-movies-android-app/main/dev-releases/v1.5.1-dev.2/phantom-movies-v1.5.1-dev.2.apk"
     }
   ]
 }
