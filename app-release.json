@@ -1,45 +1,25 @@
 {
-  "versionCode": 10550,
-  "version": "1.5.5",
+  "versionCode": 10560,
+  "version": "1.5.6",
   "date": "2026-06-01",
-  "body": "Phantom Movies v1.5.5 restores instant update notifications, keeps the GitHub release update flow, and reconnects release pushes so future updates can notify users without opening the app.",
-  "download_url": "https://github.com/PhantomMovies/phantom-movies-android-app/releases/download/v1.5.5/phantom-movies-v1.5.5.apk",
+  "body": "Phantom Movies v1.5.6 improves Continue Watching so movies and episodes resume from the saved position, including when switching servers in the new Phantom Movies player.",
+  "download_url": "https://github.com/PhantomMovies/phantom-movies-android-app/releases/download/v1.5.6/phantom-movies-v1.5.6.apk",
   "signature_download_url": "",
   "play_url": "market://details?id=com.phantommovies.phantommoviesapp",
   "releases": [
+    {
+      "versionCode": 10560,
+      "version": "1.5.6",
+      "date": "2026-06-01",
+      "body": "Phantom Movies v1.5.6 improves Continue Watching so movies and episodes resume from the saved position, including when switching servers in the new Phantom Movies player.",
+      "download_url": "https://github.com/PhantomMovies/phantom-movies-android-app/releases/download/v1.5.6/phantom-movies-v1.5.6.apk"
+    },
     {
       "versionCode": 10550,
       "version": "1.5.5",
       "date": "2026-06-01",
       "body": "Phantom Movies v1.5.5 restores instant update notifications, keeps the GitHub release update flow, and reconnects release pushes so future updates can notify users without opening the app.",
       "download_url": "https://github.com/PhantomMovies/phantom-movies-android-app/releases/download/v1.5.5/phantom-movies-v1.5.5.apk"
-    },
-    {
-      "versionCode": 10540,
-      "version": "1.5.4",
-      "date": "2026-06-01",
-      "body": "Phantom Movies v1.5.4 improves the home toolbar layering, keeps Settings cleaner, moves the app version to the bottom of Settings, and embeds Continue Watching progress into the poster art.",
-      "download_url": "https://github.com/PhantomMovies/phantom-movies-android-app/releases/download/v1.5.4/phantom-movies-v1.5.4.apk"
-    },
-    {
-      "versionCode": 10530,
-      "version": "1.5.3",
-      "date": "2026-06-01",
-      "body": "Phantom Movies v1.5.3 makes update alerts GitHub release based, removes Firebase topic update delivery, and checks GitHub immediately when update alerts are enabled.",
-      "download_url": "https://github.com/PhantomMovies/phantom-movies-android-app/releases/download/v1.5.3/phantom-movies-v1.5.3.apk"
-    },
-    {
-      "versionCode": 10521,
-      "version": "1.5.2",
-      "date": "2026-06-01",
-      "body": "Phantom Movies v1.5.2 adds app version details in Settings, fixes Continue Watching artwork, and improves watch history resume polish.",
-      "download_url": "https://github.com/PhantomMovies/phantom-movies-android-app/releases/download/v1.5.2/phantom-movies-v1.5.2.apk"
-    },
-    {
-      "versionCode": 10510,
-      "version": "1.5.1",
-      "date": "2026-06-01",
-      "body": "Phantom Movies v1.5.1 adds redesigned Continue Watching cards with watch progress, improved resume controls, better watch history artwork, and extra Phantom Movies UI polish."
     },
     {
       "versionCode": 10500,
