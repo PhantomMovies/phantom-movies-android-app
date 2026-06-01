@@ -1,0 +1,16 @@
+{
+  "versionCode": 10500,
+  "versionName": "1.5.0",
+  "date": "2026-05-31",
+  "body": "Phantom Movies v1.5.0 brings a complete UI overhaul with a fresh dark interface, redesigned home and detail screens, improved TV season and episode browsing, better foldable device layouts, local watch history, and a new Phantom Movies player experience.",
+  "download_url": "https://github.com/PhantomMovies/phantom-movies-android-app/releases/download/v1.5.0/phantom-movies-v1.5.0.apk",
+  "releases": [
+    {
+      "versionCode": 10500,
+      "versionName": "1.5.0",
+      "date": "2026-05-31",
+      "body": "Phantom Movies v1.5.0 brings a complete UI overhaul with a fresh dark interface, redesigned home and detail screens, improved TV season and episode browsing, better foldable device layouts, local watch history, and a new Phantom Movies player experience.",
+      "download_url": "https://github.com/PhantomMovies/phantom-movies-android-app/releases/download/v1.5.0/phantom-movies-v1.5.0.apk"
+    }
+  ]
+}
