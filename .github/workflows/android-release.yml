@@ -19,6 +19,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Checkout release repo
+        uses: actions/checkout@v4
+
       - name: Resolve release tag
         id: release_tag
         shell: bash
@@ -29,41 +32,14 @@ jobs:
             echo "tag=${GITHUB_REF_NAME}" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Checkout app source
-        uses: actions/checkout@v4
-        with:
-          repository: PhantomMovies/phantom-movies-app
-          token: ${{ secrets.APP_REPO_TOKEN || github.token }}
-
-      - name: Set up Java
-        uses: actions/setup-java@v4
-        with:
-          distribution: temurin
-          java-version: "17"
-
-      - name: Set up Android SDK
-        uses: android-actions/setup-android@v3
-
-      - name: Make Gradle executable
-        run: chmod +x ./gradlew
-
-      - name: Build sideload release APK
-        run: |
-          ./gradlew assembleSideloadRelease --console=plain --no-daemon \
-            -PPHANTOM_UPDATE_MANIFEST_URL=https://raw.githubusercontent.com/PhantomMovies/phantom-movies-android-app/main/app-release.json \
-            -PPHANTOM_BETA_UPDATE_MANIFEST_URL=https://raw.githubusercontent.com/PhantomMovies/phantom-movies-android-app/main/app-release-beta.json
-
-      - name: Prepare APK
-        shell: bash
-        run: |
-          mkdir -p release
-          cp app/build/outputs/apk/sideload/release/app-sideload-release.apk "release/phantom-movies-${{ steps.release_tag.outputs.tag }}.apk"
+      - name: Verify APK
+        run: test -f "releases/${{ steps.release_tag.outputs.tag }}/phantom-movies-${{ steps.release_tag.outputs.tag }}.apk"
 
       - name: Create GitHub release
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ steps.release_tag.outputs.tag }}
           name: Phantom Movies ${{ steps.release_tag.outputs.tag }}
-          files: release/*.apk
+          files: releases/${{ steps.release_tag.outputs.tag }}/phantom-movies-${{ steps.release_tag.outputs.tag }}.apk
           generate_release_notes: true
           prerelease: ${{ contains(steps.release_tag.outputs.tag, '-beta') || contains(steps.release_tag.outputs.tag, '-dev') }}
