@@ -26,8 +26,10 @@ Join the official PhantomMovies Discord to get help, report issues, or share mov
 👉 [**Join our Discord**](https://discord.gg/7hGWepuMe5)
 
 ## 📱 System Screenshots:
-<img width="640" height="625" alt="how-to-install-PhantomMovies" src="https://github.com/user-attachments/assets/4a3671d6-8000-4a22-a20f-c135ffcc4a9c" />
-<img width="640" height="480" alt="download-a-free-movies-step-2-to-4" src="https://github.com/user-attachments/assets/3c019401-70ab-4250-b39c-589cba7378c1" />
+<img width="1440" height="1080" alt="system1" src="https://github.com/user-attachments/assets/729d4c6f-a220-4f65-a555-e8b081c64f8f" />
+<img width="1440" height="1080" alt="system2" src="https://github.com/user-attachments/assets/1e4a963e-f845-43f1-9599-38cc9a414333" />
+<img width="2520" height="1080" alt="Screenshot_20260602_140318_Phantom_Movies" src="https://github.com/user-attachments/assets/b198019d-a6f0-43c9-b3a6-a59607acab57" />
+
 
 ---
 
