@@ -1,17 +1,18 @@
 {
-  "versionCode": 10520,
-  "version": "1.5.2-beta.1",
-  "date": "2026-06-01",
-  "body": "Phantom Movies v1.5.2-beta.1 starts the beta channel after the v1.5.1 release and keeps the newest Phantom Movies UI and update flow available for testers.",
-  "download_url": "https://github.com/PhantomMovies/phantom-movies-android-app/releases/download/v1.5.2-beta.1/phantom-movies-v1.5.2-beta.1.apk",
+  "versionCode": 10581,
+  "version": "1.5.8-dev.1",
+  "date": "2026-06-02",
+  "body": "Phantom Movies v1.5.8-dev.1 opens the next dev channel with the latest first-open flow, season picker, age-rating labels, settings cleanup, and media list loading polish for testers.",
+  "download_url": "https://github.com/PhantomMovies/phantom-movies-android-app/releases/download/v1.5.8-dev.1/phantom-movies-v1.5.8-dev.1.apk",
   "signature_download_url": "",
   "play_url": "market://details?id=com.phantommovies.phantommoviesapp",
   "releases": [
     {
-      "versionCode": 10520,
-      "version": "1.5.2-beta.1",
-      "date": "2026-06-01",
-      "body": "Phantom Movies v1.5.2-beta.1 starts the beta channel after the v1.5.1 release and keeps the newest Phantom Movies UI and update flow available for testers."
+      "versionCode": 10581,
+      "version": "1.5.8-dev.1",
+      "date": "2026-06-02",
+      "body": "Phantom Movies v1.5.8-dev.1 opens the next dev channel with the latest first-open flow, season picker, age-rating labels, settings cleanup, and media list loading polish for testers.",
+      "download_url": "https://github.com/PhantomMovies/phantom-movies-android-app/releases/download/v1.5.8-dev.1/phantom-movies-v1.5.8-dev.1.apk"
     }
   ]
 }

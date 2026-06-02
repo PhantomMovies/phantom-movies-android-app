@@ -13,27 +13,6 @@
       "date": "2026-06-02",
       "body": "Phantom Movies v1.5.7 polishes the first-open notification flow, adds a Phantom-themed season selector, improves age-rating labels, cleans up the settings version display, and refines loading states across media lists.",
       "download_url": "https://github.com/PhantomMovies/phantom-movies-android-app/releases/download/v1.5.7/phantom-movies-v1.5.7.apk"
-    },
-    {
-      "versionCode": 10560,
-      "version": "1.5.6",
-      "date": "2026-06-01",
-      "body": "Phantom Movies v1.5.6 improves Continue Watching so movies and episodes resume from the saved position, including when switching servers in the new Phantom Movies player.",
-      "download_url": "https://github.com/PhantomMovies/phantom-movies-android-app/releases/download/v1.5.6/phantom-movies-v1.5.6.apk"
-    },
-    {
-      "versionCode": 10550,
-      "version": "1.5.5",
-      "date": "2026-06-01",
-      "body": "Phantom Movies v1.5.5 restores instant update notifications, keeps the GitHub release update flow, and reconnects release pushes so future updates can notify users without opening the app.",
-      "download_url": "https://github.com/PhantomMovies/phantom-movies-android-app/releases/download/v1.5.5/phantom-movies-v1.5.5.apk"
-    },
-    {
-      "versionCode": 10500,
-      "version": "1.5.0",
-      "date": "2026-05-31",
-      "body": "Phantom Movies v1.5.0 brings a complete UI overhaul with a fresh dark interface, redesigned home and detail screens, improved TV season and episode browsing, better foldable device layouts, local watch history, and a new Phantom Movies player experience.",
-      "download_url": "https://github.com/PhantomMovies/phantom-movies-android-app/releases/download/v1.5.0/phantom-movies-v1.5.0.apk"
     }
   ]
 }
