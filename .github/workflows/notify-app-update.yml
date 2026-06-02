@@ -1,0 +1,116 @@
+name: Notify App Update
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - app-release.json
+  release:
+    types: [published, edited]
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Send Firebase push notification
+        env:
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+          DISCORD_BETA_WEBHOOK_URL: ${{ secrets.DISCORD_BETA_WEBHOOK_URL }}
+        run: |
+          node <<'NODE'
+          const fs = require("fs");
+          const crypto = require("crypto");
+
+          const serviceAccount = JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT);
+
+          async function getAccessToken() {
+            const now = Math.floor(Date.now() / 1000);
+
+            const header = Buffer.from(JSON.stringify({
+              alg: "RS256",
+              typ: "JWT"
+            })).toString("base64url");
+
+            const claim = Buffer.from(JSON.stringify({
+              iss: serviceAccount.client_email,
+              scope: "https://www.googleapis.com/auth/firebase.messaging",
+              aud: "https://oauth2.googleapis.com/token",
+              iat: now,
+              exp: now + 3600
+            })).toString("base64url");
+
+            const unsigned = `${header}.${claim}`;
+            const signature = crypto
+              .createSign("RSA-SHA256")
+              .update(unsigned)
+              .sign(serviceAccount.private_key, "base64url");
+
+            const jwt = `${unsigned}.${signature}`;
+
+            const res = await fetch("https://oauth2.googleapis.com/token", {
+              method: "POST",
+              headers: { "Content-Type": "application/x-www-form-urlencoded" },
+              body: new URLSearchParams({
+                grant_type: "urn:ietf:params:oauth:grant-type:jwt-bearer",
+                assertion: jwt
+              })
+            });
+
+            const data = await res.json();
+            if (!res.ok) throw new Error(JSON.stringify(data));
+            return data.access_token;
+          }
+
+          async function sendManifest(token, manifestPath, topic) {
+            if (!fs.existsSync(manifestPath)) return;
+            const manifest = JSON.parse(fs.readFileSync(manifestPath, "utf8"));
+
+            const res = await fetch(
+              `https://fcm.googleapis.com/v1/projects/${serviceAccount.project_id}/messages:send`,
+              {
+                method: "POST",
+                headers: {
+                  Authorization: `Bearer ${token}`,
+                  "Content-Type": "application/json"
+                },
+                body: JSON.stringify({
+                  message: {
+                    topic,
+                    android: {
+                      priority: "HIGH"
+                    },
+                    data: {
+                      type: "app_update",
+                      versionCode: String(manifest.versionCode),
+                      version: String(manifest.version),
+                      description: String(manifest.description || manifest.body || ""),
+                      download_url: String(manifest.download_url || ""),
+                      play_url: String(manifest.play_url || "")
+                    }
+                  }
+                })
+              }
+            );
+
+            const text = await res.text();
+            if (!res.ok) throw new Error(text);
+            console.log(`${manifestPath} -> ${topic}: ${text}`);
+          }
+
+          async function main() {
+            const token = await getAccessToken();
+            await sendManifest(token, "app-release.json", "app-updates");
+          }
+
+          main().catch(err => {
+            console.error(err);
+            process.exit(1);
+          });
+          NODE

@@ -1,8 +1,10 @@
 {
+  "created_at": "2026-06-02T00:00:00Z",
   "versionCode": 10580,
   "version": "1.5.8",
   "date": "2026-06-02",
-  "body": "Phantom Movies v1.5.8 fixes update source configuration, restores stable and dev update checks, and keeps the latest first-open flow, season picker, age-rating labels, settings cleanup, and media list loading polish.",
+  "description": "Phantom Movies v1.5.8 fixes update source configuration, restores stable and beta update checks, and keeps the latest first-open flow, season picker, age-rating labels, settings cleanup, and media list loading polish.",
+  "body": "Phantom Movies v1.5.8 fixes update source configuration, restores stable and beta update checks, and keeps the latest first-open flow, season picker, age-rating labels, settings cleanup, and media list loading polish.",
   "download_url": "https://github.com/PhantomMovies/phantom-movies-android-app/releases/download/v1.5.8/phantom-movies-v1.5.8.apk",
   "signature_download_url": "",
   "play_url": "market://details?id=com.phantommovies.phantommoviesapp",
@@ -11,8 +13,8 @@
       "versionCode": 10580,
       "version": "1.5.8",
       "date": "2026-06-02",
-      "body": "Phantom Movies v1.5.8 fixes update source configuration, restores stable and dev update checks, and keeps the latest first-open flow, season picker, age-rating labels, settings cleanup, and media list loading polish.",
-      "download_url": "https://github.com/PhantomMovies/phantom-movies-android-app/releases/download/v1.5.8/phantom-movies-v1.5.8.apk"
+      "description": "Phantom Movies v1.5.8 fixes update source configuration, restores stable and beta update checks, and keeps the latest first-open flow, season picker, age-rating labels, settings cleanup, and media list loading polish.",
+      "body": "Phantom Movies v1.5.8 fixes update source configuration, restores stable and beta update checks, and keeps the latest first-open flow, season picker, age-rating labels, settings cleanup, and media list loading polish."
     }
   ]
 }

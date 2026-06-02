@@ -1,18 +1,20 @@
 {
-  "versionCode": 10581,
-  "version": "1.5.8-dev.1",
+  "created_at": "2026-06-02T00:00:00Z",
+  "versionCode": 10591,
+  "version": "1.5.9-beta.1",
   "date": "2026-06-02",
-  "body": "Phantom Movies v1.5.8-dev.1 opens the next dev channel with the latest first-open flow, season picker, age-rating labels, settings cleanup, and media list loading polish for testers.",
-  "download_url": "https://github.com/PhantomMovies/phantom-movies-android-app/releases/download/v1.5.8-dev.1/phantom-movies-v1.5.8-dev.1.apk",
+  "description": "Phantom Movies v1.5.9-beta.1 aligns the app update system with the RivalsDB release flow, including beta topic notifications and root-hosted beta APK delivery for testers.",
+  "body": "Phantom Movies v1.5.9-beta.1 aligns the app update system with the RivalsDB release flow, including beta topic notifications and root-hosted beta APK delivery for testers.",
+  "download_url": "https://raw.githubusercontent.com/PhantomMovies/phantom-movies-android-app/main/phantom-movies-1.5.9-beta.1.apk",
   "signature_download_url": "",
   "play_url": "market://details?id=com.phantommovies.phantommoviesapp",
   "releases": [
     {
-      "versionCode": 10581,
-      "version": "1.5.8-dev.1",
+      "versionCode": 10591,
+      "version": "1.5.9-beta.1",
       "date": "2026-06-02",
-      "body": "Phantom Movies v1.5.8-dev.1 opens the next dev channel with the latest first-open flow, season picker, age-rating labels, settings cleanup, and media list loading polish for testers.",
-      "download_url": "https://github.com/PhantomMovies/phantom-movies-android-app/releases/download/v1.5.8-dev.1/phantom-movies-v1.5.8-dev.1.apk"
+      "description": "Phantom Movies v1.5.9-beta.1 aligns the app update system with the RivalsDB release flow, including beta topic notifications and root-hosted beta APK delivery for testers.",
+      "body": "Phantom Movies v1.5.9-beta.1 aligns the app update system with the RivalsDB release flow, including beta topic notifications and root-hosted beta APK delivery for testers."
     }
   ]
 }
