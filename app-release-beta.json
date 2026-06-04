@@ -13,8 +13,8 @@
       "versionCode": 10593,
       "version": "1.5.9-beta.3",
       "date": "2026-06-04",
-      "description": "Phantom Movies v1.5.9-beta.3 adds Firebase-backed user data sync for the phone app. Signed-in users now get a Firestore profile document, shared app settings sync, phone settings sync, and cloud-backed watch history/continue watching that merges with local history for faster loading.",
-      "body": "Phantom Movies v1.5.9-beta.3 adds Firebase-backed user data sync for the phone app. Signed-in users now get a Firestore profile document, shared app settings sync, phone settings sync, and cloud-backed watch history/continue watching that merges with local history for faster loading."
+      "description": "Phantom Movies v1.5.9-beta.3 adds user data sync for the phone app. Signed-in users now get a profile document, shared app settings sync, phone settings sync, and cloud-backed watch history/continue watching that merges with local history for faster loading.",
+      "body": "Phantom Movies v1.5.9-beta.3 adds user data sync for the phone app. Signed-in users now get a profile document, shared app settings sync, phone settings sync, and cloud-backed watch history/continue watching that merges with local history for faster loading."
     },
     {
       "versionCode": 10592,
