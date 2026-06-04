@@ -1,14 +1,21 @@
 {
   "created_at": "2026-06-02T00:00:00Z",
-  "versionCode": 10591,
-  "version": "1.5.9-beta.1",
-  "date": "2026-06-02",
-  "description": "Phantom Movies v1.5.9-beta.1 aligns the app update system with the RivalsDB release flow, including beta topic notifications and root-hosted beta APK delivery for testers.",
-  "body": "Phantom Movies v1.5.9-beta.1 aligns the app update system with the RivalsDB release flow, including beta topic notifications and root-hosted beta APK delivery for testers.",
-  "download_url": "https://raw.githubusercontent.com/PhantomMovies/phantom-movies-android-app/main/phantom-movies-1.5.9-beta.1.apk",
+  "versionCode": 10592,
+  "version": "1.5.9-beta.2",
+  "date": "2026-06-04",
+  "description": "Phantom Movies v1.5.9-beta.2 starts the account/profile path for cross-device syncing. The first-open screen now offers email login, Google login, sign up, or skip; watch history is limited to signed-in users; and the home toolbar profile button opens login or profile based on auth state.",
+  "body": "Phantom Movies v1.5.9-beta.2 starts the account/profile path for cross-device syncing. The first-open screen now offers email login, Google login, sign up, or skip; watch history is limited to signed-in users; and the home toolbar profile button opens login or profile based on auth state.",
+  "download_url": "https://raw.githubusercontent.com/PhantomMovies/phantom-movies-android-app/main/phantom-movies-1.5.9-beta.2.apk",
   "signature_download_url": "",
   "play_url": "market://details?id=com.phantommovies.phantommoviesapp",
   "releases": [
+    {
+      "versionCode": 10592,
+      "version": "1.5.9-beta.2",
+      "date": "2026-06-04",
+      "description": "Phantom Movies v1.5.9-beta.2 starts the account/profile path for cross-device syncing. The first-open screen now offers email login, Google login, sign up, or skip; watch history is limited to signed-in users; and the home toolbar profile button opens login or profile based on auth state.",
+      "body": "Phantom Movies v1.5.9-beta.2 starts the account/profile path for cross-device syncing. The first-open screen now offers email login, Google login, sign up, or skip; watch history is limited to signed-in users; and the home toolbar profile button opens login or profile based on auth state."
+    },
     {
       "versionCode": 10591,
       "version": "1.5.9-beta.1",
