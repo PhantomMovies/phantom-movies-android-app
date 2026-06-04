@@ -3,8 +3,8 @@
   "versionCode": 10594,
   "version": "1.5.9",
   "date": "2026-06-04",
-  "description": "Phantom Movies v1.5.9 promotes the account/profile update to stable. Users can sign in with email or Google, skip login when they want, sync profile/settings/watch history data through Firebase, use the cleaned-up onboarding screen, and switch the account card between Login and Logout based on auth state.",
-  "body": "Phantom Movies v1.5.9 promotes the account/profile update to stable. Users can sign in with email or Google, skip login when they want, sync profile/settings/watch history data through Firebase, use the cleaned-up onboarding screen, and switch the account card between Login and Logout based on auth state.",
+  "description": "- Account and profile support is now stable.\n- Users can sign in with email or Google.\n- Users can skip login and keep using the app normally.\n- Firebase sync now supports profile, settings, watch history, and continue watching data.\n- The onboarding screen has been cleaned up.\n- The account card now shows Login or Logout based on auth state.",
+  "body": "- Account and profile support is now stable.\n- Users can sign in with email or Google.\n- Users can skip login and keep using the app normally.\n- Firebase sync now supports profile, settings, watch history, and continue watching data.\n- The onboarding screen has been cleaned up.\n- The account card now shows Login or Logout based on auth state.",
   "download_url": "https://github.com/PhantomMovies/phantom-movies-android-app/releases/download/v1.5.9/phantom-movies-v1.5.9.apk",
   "signature_download_url": "",
   "play_url": "market://details?id=com.phantommovies.phantommoviesapp",
@@ -13,15 +13,15 @@
       "versionCode": 10594,
       "version": "1.5.9",
       "date": "2026-06-04",
-      "description": "Phantom Movies v1.5.9 promotes account/profile support to stable with email and Google login, Firebase-backed profile/settings/watch history sync, the cleaned-up onboarding screen, and an account card that shows Login or Logout based on auth state.",
-      "body": "Phantom Movies v1.5.9 promotes account/profile support to stable with email and Google login, Firebase-backed profile/settings/watch history sync, the cleaned-up onboarding screen, and an account card that shows Login or Logout based on auth state."
+      "description": "- Account and profile support is now stable.\n- Users can sign in with email or Google.\n- Users can skip login and keep using the app normally.\n- Firebase sync now supports profile, settings, watch history, and continue watching data.\n- The onboarding screen has been cleaned up.\n- The account card now shows Login or Logout based on auth state.",
+      "body": "- Account and profile support is now stable.\n- Users can sign in with email or Google.\n- Users can skip login and keep using the app normally.\n- Firebase sync now supports profile, settings, watch history, and continue watching data.\n- The onboarding screen has been cleaned up.\n- The account card now shows Login or Logout based on auth state."
     },
     {
       "versionCode": 10580,
       "version": "1.5.8",
       "date": "2026-06-02",
-      "description": "Phantom Movies v1.5.8 fixes update source configuration, restores stable and beta update checks, and keeps the latest first-open flow, season picker, age-rating labels, settings cleanup, and media list loading polish.",
-      "body": "Phantom Movies v1.5.8 fixes update source configuration, restores stable and beta update checks, and keeps the latest first-open flow, season picker, age-rating labels, settings cleanup, and media list loading polish."
+      "description": "- Fixed update source configuration.\n- Restored stable update checks.\n- Restored beta update checks.\n- Kept the latest first-open flow, season picker, age-rating labels, settings cleanup, and media list loading polish.",
+      "body": "- Fixed update source configuration.\n- Restored stable update checks.\n- Restored beta update checks.\n- Kept the latest first-open flow, season picker, age-rating labels, settings cleanup, and media list loading polish."
     }
   ]
 }

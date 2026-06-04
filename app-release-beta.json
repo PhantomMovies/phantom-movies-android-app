@@ -3,8 +3,8 @@
   "versionCode": 10593,
   "version": "1.5.9-beta.3",
   "date": "2026-06-04",
-  "description": "Phantom Movies v1.5.9-beta.3 adds Firebase-backed user data sync for the phone app. Signed-in users now get a Firestore profile document, shared app settings sync, phone settings sync, and cloud-backed watch history/continue watching that merges with local history for faster loading.",
-  "body": "Phantom Movies v1.5.9-beta.3 adds Firebase-backed user data sync for the phone app. Signed-in users now get a Firestore profile document, shared app settings sync, phone settings sync, and cloud-backed watch history/continue watching that merges with local history for faster loading.",
+  "description": "- Added Firebase-backed user data sync for the phone app.\n- Signed-in users now get a Firestore profile document.\n- Shared app settings and phone settings can sync through Firebase.\n- Watch history and continue watching can sync through Firebase.\n- Cloud history merges with local history for faster loading.",
+  "body": "- Added Firebase-backed user data sync for the phone app.\n- Signed-in users now get a Firestore profile document.\n- Shared app settings and phone settings can sync through Firebase.\n- Watch history and continue watching can sync through Firebase.\n- Cloud history merges with local history for faster loading.",
   "download_url": "https://github.com/PhantomMovies/phantom-movies-android-app/releases/download/v1.5.9-beta.3/phantom-movies-1.5.9-beta.3.apk",
   "signature_download_url": "",
   "play_url": "market://details?id=com.phantommovies.phantommoviesapp",
@@ -13,22 +13,22 @@
       "versionCode": 10593,
       "version": "1.5.9-beta.3",
       "date": "2026-06-04",
-      "description": "Phantom Movies v1.5.9-beta.3 adds user data sync for the phone app. Signed-in users now get a profile document, shared app settings sync, phone settings sync, and cloud-backed watch history/continue watching that merges with local history for faster loading.",
-      "body": "Phantom Movies v1.5.9-beta.3 adds user data sync for the phone app. Signed-in users now get a profile document, shared app settings sync, phone settings sync, and cloud-backed watch history/continue watching that merges with local history for faster loading."
+      "description": "- Added Firebase-backed user data sync for the phone app.\n- Signed-in users now get a Firestore profile document.\n- Shared app settings and phone settings can sync through Firebase.\n- Watch history and continue watching can sync through Firebase.\n- Cloud history merges with local history for faster loading.",
+      "body": "- Added Firebase-backed user data sync for the phone app.\n- Signed-in users now get a Firestore profile document.\n- Shared app settings and phone settings can sync through Firebase.\n- Watch history and continue watching can sync through Firebase.\n- Cloud history merges with local history for faster loading."
     },
     {
       "versionCode": 10592,
       "version": "1.5.9-beta.2",
       "date": "2026-06-04",
-      "description": "Phantom Movies v1.5.9-beta.2 starts the account/profile path for cross-device syncing. The first-open screen now offers email login, Google login, sign up, or skip; watch history is limited to signed-in users; and the home toolbar profile button opens login or profile based on auth state.",
-      "body": "Phantom Movies v1.5.9-beta.2 starts the account/profile path for cross-device syncing. The first-open screen now offers email login, Google login, sign up, or skip; watch history is limited to signed-in users; and the home toolbar profile button opens login or profile based on auth state."
+      "description": "- Started the account and profile path for cross-device syncing.\n- First-open screen now offers email login, Google login, and skip.\n- Watch history is limited to signed-in users.\n- Continue watching is limited to signed-in users.\n- The home toolbar profile button opens login or profile based on auth state.",
+      "body": "- Started the account and profile path for cross-device syncing.\n- First-open screen now offers email login, Google login, and skip.\n- Watch history is limited to signed-in users.\n- Continue watching is limited to signed-in users.\n- The home toolbar profile button opens login or profile based on auth state."
     },
     {
       "versionCode": 10591,
       "version": "1.5.9-beta.1",
       "date": "2026-06-02",
-      "description": "Phantom Movies v1.5.9-beta.1 aligns the app update system with the RivalsDB release flow, including beta topic notifications and root-hosted beta APK delivery for testers.",
-      "body": "Phantom Movies v1.5.9-beta.1 aligns the app update system with the RivalsDB release flow, including beta topic notifications and root-hosted beta APK delivery for testers."
+      "description": "- Aligned the app update system with the RivalsDB release flow.\n- Added beta update notification support.\n- Added beta topic notifications for testers.\n- Added GitHub Release APK delivery for beta builds.",
+      "body": "- Aligned the app update system with the RivalsDB release flow.\n- Added beta update notification support.\n- Added beta topic notifications for testers.\n- Added GitHub Release APK delivery for beta builds."
     }
   ]
 }
