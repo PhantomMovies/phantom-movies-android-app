@@ -5,7 +5,7 @@
   "date": "2026-06-04",
   "description": "Phantom Movies v1.5.9-beta.2 starts the account/profile path for cross-device syncing. The first-open screen now offers email login, Google login, sign up, or skip; watch history is limited to signed-in users; and the home toolbar profile button opens login or profile based on auth state.",
   "body": "Phantom Movies v1.5.9-beta.2 starts the account/profile path for cross-device syncing. The first-open screen now offers email login, Google login, sign up, or skip; watch history is limited to signed-in users; and the home toolbar profile button opens login or profile based on auth state.",
-  "download_url": "https://raw.githubusercontent.com/PhantomMovies/phantom-movies-android-app/main/phantom-movies-1.5.9-beta.2.apk",
+  "download_url": "https://github.com/PhantomMovies/phantom-movies-android-app/releases/download/v1.5.9-beta.2/phantom-movies-1.5.9-beta.2.apk",
   "signature_download_url": "",
   "play_url": "market://details?id=com.phantommovies.phantommoviesapp",
   "releases": [
