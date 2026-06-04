@@ -1,14 +1,21 @@
 {
-  "created_at": "2026-06-02T00:00:00Z",
-  "versionCode": 10580,
-  "version": "1.5.8",
-  "date": "2026-06-02",
-  "description": "Phantom Movies v1.5.8 fixes update source configuration, restores stable and beta update checks, and keeps the latest first-open flow, season picker, age-rating labels, settings cleanup, and media list loading polish.",
-  "body": "Phantom Movies v1.5.8 fixes update source configuration, restores stable and beta update checks, and keeps the latest first-open flow, season picker, age-rating labels, settings cleanup, and media list loading polish.",
-  "download_url": "https://github.com/PhantomMovies/phantom-movies-android-app/releases/download/v1.5.8/phantom-movies-v1.5.8.apk",
+  "created_at": "2026-06-04T00:00:00Z",
+  "versionCode": 10594,
+  "version": "1.5.9",
+  "date": "2026-06-04",
+  "description": "Phantom Movies v1.5.9 promotes the account/profile update to stable. Users can sign in with email or Google, skip login when they want, sync profile/settings/watch history data through Firebase, use the cleaned-up onboarding screen, and switch the account card between Login and Logout based on auth state.",
+  "body": "Phantom Movies v1.5.9 promotes the account/profile update to stable. Users can sign in with email or Google, skip login when they want, sync profile/settings/watch history data through Firebase, use the cleaned-up onboarding screen, and switch the account card between Login and Logout based on auth state.",
+  "download_url": "https://github.com/PhantomMovies/phantom-movies-android-app/releases/download/v1.5.9/phantom-movies-v1.5.9.apk",
   "signature_download_url": "",
   "play_url": "market://details?id=com.phantommovies.phantommoviesapp",
   "releases": [
+    {
+      "versionCode": 10594,
+      "version": "1.5.9",
+      "date": "2026-06-04",
+      "description": "Phantom Movies v1.5.9 promotes account/profile support to stable with email and Google login, Firebase-backed profile/settings/watch history sync, the cleaned-up onboarding screen, and an account card that shows Login or Logout based on auth state.",
+      "body": "Phantom Movies v1.5.9 promotes account/profile support to stable with email and Google login, Firebase-backed profile/settings/watch history sync, the cleaned-up onboarding screen, and an account card that shows Login or Logout based on auth state."
+    },
     {
       "versionCode": 10580,
       "version": "1.5.8",
