@@ -1,27 +1,20 @@
 {
-  "created_at": "2026-06-04T00:00:00Z",
-  "versionCode": 10594,
-  "version": "1.5.9",
-  "date": "2026-06-04",
-  "description": "- Account and profile support is now stable.\n- Users can sign in with email or Google.\n- Users can skip login and keep using the app normally.\n- Firebase sync now supports profile, settings, watch history, and continue watching data.\n- The onboarding screen has been cleaned up.\n- The account card now shows Login or Logout based on auth state.",
-  "body": "- Account and profile support is now stable.\n- Users can sign in with email or Google.\n- Users can skip login and keep using the app normally.\n- Firebase sync now supports profile, settings, watch history, and continue watching data.\n- The onboarding screen has been cleaned up.\n- The account card now shows Login or Logout based on auth state.",
-  "download_url": "https://github.com/PhantomMovies/phantom-movies-android-app/releases/download/v1.5.9/phantom-movies-v1.5.9.apk",
+  "created_at": "2026-09-04T00:00:00Z",
+  "versionCode": 10595,
+  "version": "1.5.10",
+  "date": "2026-09-04",
+  "description": "- Disabled AdMob ads.",
+  "body": "- Disabled AdMob ads.",
+  "download_url": "https://github.com/PhantomMovies/phantom-movies-android-app/releases/download/1.5.10/phantom-movies-v1.5.10.apk",
   "signature_download_url": "",
   "play_url": "market://details?id=com.phantommovies.phantommoviesapp",
   "releases": [
     {
-      "versionCode": 10594,
-      "version": "1.5.9",
-      "date": "2026-06-04",
-      "description": "- Account and profile support is now stable.\n- Users can sign in with email or Google.\n- Users can skip login and keep using the app normally.\n- Firebase sync now supports profile, settings, watch history, and continue watching data.\n- The onboarding screen has been cleaned up.\n- The account card now shows Login or Logout based on auth state.",
-      "body": "- Account and profile support is now stable.\n- Users can sign in with email or Google.\n- Users can skip login and keep using the app normally.\n- Firebase sync now supports profile, settings, watch history, and continue watching data.\n- The onboarding screen has been cleaned up.\n- The account card now shows Login or Logout based on auth state."
-    },
-    {
-      "versionCode": 10580,
-      "version": "1.5.8",
-      "date": "2026-06-02",
-      "description": "- Fixed update source configuration.\n- Restored stable update checks.\n- Restored beta update checks.\n- Kept the latest first-open flow, season picker, age-rating labels, settings cleanup, and media list loading polish.",
-      "body": "- Fixed update source configuration.\n- Restored stable update checks.\n- Restored beta update checks.\n- Kept the latest first-open flow, season picker, age-rating labels, settings cleanup, and media list loading polish."
+      "versionCode": 10595,
+      "version": "1.5.10",
+      "date": "2026-09-04",
+      "description": "- Disabled AdMob ads.",
+      "body": "- Disabled AdMob ads."
     }
   ]
 }
