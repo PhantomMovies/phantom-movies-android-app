@@ -1,14 +1,21 @@
 {
-  "created_at": "2026-09-04T00:00:00Z",
-  "versionCode": 10595,
-  "version": "1.5.10",
-  "date": "2026-09-04",
-  "description": "- Disabled AdMob ads.",
-  "body": "- Disabled AdMob ads.",
-  "download_url": "https://github.com/PhantomMovies/phantom-movies-android-app/releases/download/1.5.10/phantom-movies-v1.5.10.apk",
+  "created_at": "2026-09-08T00:00:00Z",
+  "versionCode": 10596,
+  "version": "1.5.11",
+  "date": "2026-09-08",
+  "description": "- Restored user accounts and login support.\n- Improved movie and TV stream loading.\n- Added faster server failover.\n- Added backup stream preparation.\n- Added support for both padded and unpadded TV episode numbers.",
+  "body": "- Restored user accounts and login support.\n- Improved movie and TV stream loading.\n- Added faster server failover.\n- Added backup stream preparation.\n- Added support for both padded and unpadded TV episode numbers.",
+  "download_url": "https://github.com/PhantomMovies/phantom-movies-android-app/releases/download/v1.5.11/phantom-movies-v1.5.11.apk",
   "signature_download_url": "",
   "play_url": "market://details?id=com.phantommovies.phantommoviesapp",
   "releases": [
+    {
+      "versionCode": 10596,
+      "version": "1.5.11",
+      "date": "2026-09-08",
+      "description": "- Restored user accounts and login support.\n- Improved movie and TV stream loading.\n- Added faster server failover.\n- Added backup stream preparation.\n- Added support for both padded and unpadded TV episode numbers.",
+      "body": "- Restored user accounts and login support.\n- Improved movie and TV stream loading.\n- Added faster server failover.\n- Added backup stream preparation.\n- Added support for both padded and unpadded TV episode numbers."
+    },
     {
       "versionCode": 10595,
       "version": "1.5.10",
