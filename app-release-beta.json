@@ -1,34 +1,20 @@
 {
-  "created_at": "2026-06-02T00:00:00Z",
-  "versionCode": 10593,
-  "version": "1.5.9-beta.3",
-  "date": "2026-06-04",
-  "description": "- Added Firebase-backed user data sync for the phone app.\n- Signed-in users now get a Firestore profile document.\n- Shared app settings and phone settings can sync through Firebase.\n- Watch history and continue watching can sync through Firebase.\n- Cloud history merges with local history for faster loading.",
-  "body": "- Added Firebase-backed user data sync for the phone app.\n- Signed-in users now get a Firestore profile document.\n- Shared app settings and phone settings can sync through Firebase.\n- Watch history and continue watching can sync through Firebase.\n- Cloud history merges with local history for faster loading.",
-  "download_url": "https://github.com/PhantomMovies/phantom-movies-android-app/releases/download/v1.5.9-beta.3/phantom-movies-1.5.9-beta.3.apk",
+  "created_at": "2026-09-08T00:00:00Z",
+  "versionCode": 10598,
+  "version": "1.5.12",
+  "date": "2026-09-08",
+  "description": "- Improved stream loading times with shorter provider timeouts and faster failover.\n- Added app-wide language support for every language available in Settings.\n- Language changes now apply immediately throughout navigation, sections, and settings.\n- The selected language also affects supported stream sources, depending on language availability from each provider.\n- Fixed missing artwork and trailers after changing languages.\n- Improved Watch History and Continue Watching syncing between phone and TV.\n- Playback position now uploads when the phone player closes.",
+  "body": "- Improved stream loading times with shorter provider timeouts and faster failover.\n- Added app-wide language support for every language available in Settings.\n- Language changes now apply immediately throughout navigation, sections, and settings.\n- The selected language also affects supported stream sources, depending on language availability from each provider.\n- Fixed missing artwork and trailers after changing languages.\n- Improved Watch History and Continue Watching syncing between phone and TV.\n- Playback position now uploads when the phone player closes.",
+  "download_url": "https://github.com/PhantomMovies/phantom-movies-android-app/releases/download/v1.5.12/phantom-movies-v1.5.12.apk",
   "signature_download_url": "",
   "play_url": "market://details?id=com.phantommovies.phantommoviesapp",
   "releases": [
     {
-      "versionCode": 10593,
-      "version": "1.5.9-beta.3",
-      "date": "2026-06-04",
-      "description": "- Added Firebase-backed user data sync for the phone app.\n- Signed-in users now get a Firestore profile document.\n- Shared app settings and phone settings can sync through Firebase.\n- Watch history and continue watching can sync through Firebase.\n- Cloud history merges with local history for faster loading.",
-      "body": "- Added Firebase-backed user data sync for the phone app.\n- Signed-in users now get a Firestore profile document.\n- Shared app settings and phone settings can sync through Firebase.\n- Watch history and continue watching can sync through Firebase.\n- Cloud history merges with local history for faster loading."
-    },
-    {
-      "versionCode": 10592,
-      "version": "1.5.9-beta.2",
-      "date": "2026-06-04",
-      "description": "- Started the account and profile path for cross-device syncing.\n- First-open screen now offers email login, Google login, and skip.\n- Watch history is limited to signed-in users.\n- Continue watching is limited to signed-in users.\n- The home toolbar profile button opens login or profile based on auth state.",
-      "body": "- Started the account and profile path for cross-device syncing.\n- First-open screen now offers email login, Google login, and skip.\n- Watch history is limited to signed-in users.\n- Continue watching is limited to signed-in users.\n- The home toolbar profile button opens login or profile based on auth state."
-    },
-    {
-      "versionCode": 10591,
-      "version": "1.5.9-beta.1",
-      "date": "2026-06-02",
-      "description": "- Aligned the app update system with the RivalsDB release flow.\n- Added beta update notification support.\n- Added beta topic notifications for testers.\n- Added GitHub Release APK delivery for beta builds.",
-      "body": "- Aligned the app update system with the RivalsDB release flow.\n- Added beta update notification support.\n- Added beta topic notifications for testers.\n- Added GitHub Release APK delivery for beta builds."
+      "versionCode": 10598,
+      "version": "1.5.12",
+      "date": "2026-09-08",
+      "description": "- Improved stream loading times with shorter provider timeouts and faster failover.\n- Added app-wide language support for every language available in Settings.\n- Language changes now apply immediately throughout navigation, sections, and settings.\n- The selected language also affects supported stream sources, depending on language availability from each provider.\n- Fixed missing artwork and trailers after changing languages.\n- Improved Watch History and Continue Watching syncing between phone and TV.\n- Playback position now uploads when the phone player closes.",
+      "body": "- Improved stream loading times with shorter provider timeouts and faster failover.\n- Added app-wide language support for every language available in Settings.\n- Language changes now apply immediately throughout navigation, sections, and settings.\n- The selected language also affects supported stream sources, depending on language availability from each provider.\n- Fixed missing artwork and trailers after changing languages.\n- Improved Watch History and Continue Watching syncing between phone and TV.\n- Playback position now uploads when the phone player closes."
     }
   ]
 }
