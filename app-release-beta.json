@@ -1,20 +1,20 @@
 {
-  "created_at": "2026-09-08T00:00:00Z",
-  "versionCode": 10598,
-  "version": "1.5.12",
-  "date": "2026-09-08",
-  "description": "- Improved stream loading times with shorter provider timeouts and faster failover.\n- Added app-wide language support for every language available in Settings.\n- Language changes now apply immediately throughout navigation, sections, and settings.\n- The selected language also affects supported stream sources, depending on language availability from each provider.\n- Fixed missing artwork and trailers after changing languages.\n- Improved Watch History and Continue Watching syncing between phone and TV.\n- Playback position now uploads when the phone player closes.",
-  "body": "- Improved stream loading times with shorter provider timeouts and faster failover.\n- Added app-wide language support for every language available in Settings.\n- Language changes now apply immediately throughout navigation, sections, and settings.\n- The selected language also affects supported stream sources, depending on language availability from each provider.\n- Fixed missing artwork and trailers after changing languages.\n- Improved Watch History and Continue Watching syncing between phone and TV.\n- Playback position now uploads when the phone player closes.",
-  "download_url": "https://github.com/PhantomMovies/phantom-movies-android-app/releases/download/v1.5.12/phantom-movies-v1.5.12.apk",
+  "created_at": "2026-09-09T00:00:00Z",
+  "versionCode": 10599,
+  "version": "1.5.13-beta.1",
+  "date": "2026-09-09",
+  "description": "- Added useful stream details beneath the existing server names in the player.\n- Shows supported quality, audio languages, and subtitles when detected.\n- Added live status labels for playing, paused, loading, buffering, and failed sources.\n- Distinguishes untried servers, previously tried servers, and prepared backups.\n- Server details refresh while the selector is open, including during automatic failover.\n- Failed servers remain available to retry.",
+  "body": "- Added useful stream details beneath the existing server names in the player.\n- Shows supported quality, audio languages, and subtitles when detected.\n- Added live status labels for playing, paused, loading, buffering, and failed sources.\n- Distinguishes untried servers, previously tried servers, and prepared backups.\n- Server details refresh while the selector is open, including during automatic failover.\n- Failed servers remain available to retry.",
+  "download_url": "https://github.com/PhantomMovies/phantom-movies-android-app/releases/download/v1.5.13-beta.1/phantom-movies-v1.5.13-beta.1.apk",
   "signature_download_url": "",
   "play_url": "market://details?id=com.phantommovies.phantommoviesapp",
   "releases": [
     {
-      "versionCode": 10598,
-      "version": "1.5.12",
-      "date": "2026-09-08",
-      "description": "- Improved stream loading times with shorter provider timeouts and faster failover.\n- Added app-wide language support for every language available in Settings.\n- Language changes now apply immediately throughout navigation, sections, and settings.\n- The selected language also affects supported stream sources, depending on language availability from each provider.\n- Fixed missing artwork and trailers after changing languages.\n- Improved Watch History and Continue Watching syncing between phone and TV.\n- Playback position now uploads when the phone player closes.",
-      "body": "- Improved stream loading times with shorter provider timeouts and faster failover.\n- Added app-wide language support for every language available in Settings.\n- Language changes now apply immediately throughout navigation, sections, and settings.\n- The selected language also affects supported stream sources, depending on language availability from each provider.\n- Fixed missing artwork and trailers after changing languages.\n- Improved Watch History and Continue Watching syncing between phone and TV.\n- Playback position now uploads when the phone player closes."
+      "versionCode": 10599,
+      "version": "1.5.13-beta.1",
+      "date": "2026-09-09",
+      "description": "- Added useful stream details beneath the existing server names in the player.\n- Shows supported quality, audio languages, and subtitles when detected.\n- Added live status labels for playing, paused, loading, buffering, and failed sources.\n- Distinguishes untried servers, previously tried servers, and prepared backups.\n- Server details refresh while the selector is open, including during automatic failover.\n- Failed servers remain available to retry.",
+      "body": "- Added useful stream details beneath the existing server names in the player.\n- Shows supported quality, audio languages, and subtitles when detected.\n- Added live status labels for playing, paused, loading, buffering, and failed sources.\n- Distinguishes untried servers, previously tried servers, and prepared backups.\n- Server details refresh while the selector is open, including during automatic failover.\n- Failed servers remain available to retry."
     }
   ]
 }
