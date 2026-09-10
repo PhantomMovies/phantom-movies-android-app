@@ -1,27 +1,20 @@
 {
-  "created_at": "2026-09-09T00:00:00Z",
-  "versionCode": 10600,
-  "version": "1.5.13-beta.2",
-  "date": "2026-09-09",
-  "description": "- Added movie and episode downloads for supported streams.\n- Downloads save directly to Downloads/Phantom Movies on your device.\n- Added a download dialog with progress, pause, resume, retry, and Hide controls.\n- Downloads continue while the dialog is hidden or the app is in the background.\n- Downloaded videos can be played offline from the Downloads page.\n- Added download progress bars to the Downloads page.\n- Added a download removal dialog. Removing an item only hides it from Downloads and keeps the device file.\n- Updated notifications to use the Phantom Movies notification icon.",
-  "body": "- Added movie and episode downloads for supported streams.\n- Downloads save directly to Downloads/Phantom Movies on your device.\n- Added a download dialog with progress, pause, resume, retry, and Hide controls.\n- Downloads continue while the dialog is hidden or the app is in the background.\n- Downloaded videos can be played offline from the Downloads page.\n- Added download progress bars to the Downloads page.\n- Added a download removal dialog. Removing an item only hides it from Downloads and keeps the device file.\n- Updated notifications to use the Phantom Movies notification icon.",
-  "download_url": "https://github.com/PhantomMovies/phantom-movies-android-app/releases/download/v1.5.13-beta.2/phantom-movies-v1.5.13-beta.2.apk",
+  "created_at": "2026-09-10T00:00:00Z",
+  "versionCode": 10607,
+  "version": "1.7.0-beta.4",
+  "date": "2026-09-10",
+  "description": "- Added Torrentio addon support.\n- Torrentio sources now appear directly in the player alongside regular servers.\n- Torrentio streams are prioritized and the first available source is selected automatically.\n- Added seeders and file size information for Torrentio sources.\n- Added a new Addons section in Profile for managing installed addons.\n- Addons can be configured, searched, and uninstalled from the app.\n- Regular servers are still used automatically if Torrentio is unavailable or returns no streams.",
+  "body": "- Added Torrentio addon support.\n- Torrentio sources now appear directly in the player alongside regular servers.\n- Torrentio streams are prioritized and the first available source is selected automatically.\n- Added seeders and file size information for Torrentio sources.\n- Added a new Addons section in Profile for managing installed addons.\n- Addons can be configured, searched, and uninstalled from the app.\n- Regular servers are still used automatically if Torrentio is unavailable or returns no streams.",
+  "download_url": "https://github.com/PhantomMovies/phantom-movies-android-app/releases/download/v1.7.0-beta.4/phantom-movies-v1.7.0-beta.4.apk",
   "signature_download_url": "",
   "play_url": "market://details?id=com.phantommovies.phantommoviesapp",
   "releases": [
     {
-      "versionCode": 10600,
-      "version": "1.5.13-beta.2",
-      "date": "2026-09-09",
-      "description": "- Added movie and episode downloads for supported streams.\n- Downloads save directly to Downloads/Phantom Movies on your device.\n- Added a download dialog with progress, pause, resume, retry, and Hide controls.\n- Downloads continue while the dialog is hidden or the app is in the background.\n- Downloaded videos can be played offline from the Downloads page.\n- Added download progress bars to the Downloads page.\n- Added a download removal dialog. Removing an item only hides it from Downloads and keeps the device file.\n- Updated notifications to use the Phantom Movies notification icon.",
-      "body": "- Added movie and episode downloads for supported streams.\n- Downloads save directly to Downloads/Phantom Movies on your device.\n- Added a download dialog with progress, pause, resume, retry, and Hide controls.\n- Downloads continue while the dialog is hidden or the app is in the background.\n- Downloaded videos can be played offline from the Downloads page.\n- Added download progress bars to the Downloads page.\n- Added a Mova-style removal dialog. Removing an item only hides it from Downloads and keeps the device file.\n- Updated notifications to use the Phantom Movies notification icon."
-    },
-    {
-      "versionCode": 10599,
-      "version": "1.5.13-beta.1",
-      "date": "2026-09-09",
-      "description": "- Added useful stream details beneath the existing server names in the player.\n- Shows supported quality, audio languages, and subtitles when detected.\n- Added live status labels for playing, paused, loading, buffering, and failed sources.\n- Distinguishes untried servers, previously tried servers, and prepared backups.\n- Server details refresh while the selector is open, including during automatic failover.\n- Failed servers remain available to retry.",
-      "body": "- Added useful stream details beneath the existing server names in the player.\n- Shows supported quality, audio languages, and subtitles when detected.\n- Added live status labels for playing, paused, loading, buffering, and failed sources.\n- Distinguishes untried servers, previously tried servers, and prepared backups.\n- Server details refresh while the selector is open, including during automatic failover.\n- Failed servers remain available to retry."
+      "versionCode": 10607,
+      "version": "1.7.0-beta.4",
+      "date": "2026-09-10",
+      "description": "- Added Torrentio addon support.\n- Torrentio sources now appear directly in the player alongside regular servers.\n- Torrentio streams are prioritized and the first available source is selected automatically.\n- Added seeders and file size information for Torrentio sources.\n- Added a new Addons section in Profile for managing installed addons.\n- Addons can be configured, searched, and uninstalled from the app.\n- Regular servers are still used automatically if Torrentio is unavailable or returns no streams.",
+      "body": "- Added Torrentio addon support.\n- Torrentio sources now appear directly in the player alongside regular servers.\n- Torrentio streams are prioritized and the first available source is selected automatically.\n- Added seeders and file size information for Torrentio sources.\n- Added a new Addons section in Profile for managing installed addons.\n- Addons can be configured, searched, and uninstalled from the app.\n- Regular servers are still used automatically if Torrentio is unavailable or returns no streams."
     }
   ]
 }
