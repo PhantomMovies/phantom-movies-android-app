@@ -1,14 +1,21 @@
 {
-  "created_at": "2026-09-08T00:00:00Z",
-  "versionCode": 10598,
-  "version": "1.5.12",
-  "date": "2026-09-08",
-  "description": "- Improved stream loading times with shorter provider timeouts and faster failover.\n- Added app-wide language support for every language available in Settings.\n- Language changes now apply immediately throughout navigation, sections, and settings.\n- The selected language also affects supported stream sources, depending on language availability from each provider.\n- Fixed missing artwork and trailers after changing languages.\n- Improved Watch History and Continue Watching syncing between phone and TV.\n- Playback position now uploads when the phone player closes.",
-  "body": "- Improved stream loading times with shorter provider timeouts and faster failover.\n- Added app-wide language support for every language available in Settings.\n- Language changes now apply immediately throughout navigation, sections, and settings.\n- The selected language also affects supported stream sources, depending on language availability from each provider.\n- Fixed missing artwork and trailers after changing languages.\n- Improved Watch History and Continue Watching syncing between phone and TV.\n- Playback position now uploads when the phone player closes.",
-  "download_url": "https://github.com/PhantomMovies/phantom-movies-android-app/releases/download/v1.5.12/phantom-movies-v1.5.12.apk",
+  "created_at": "2026-09-10T00:00:00Z",
+  "versionCode": 10602,
+  "version": "1.6.0",
+  "date": "2026-09-10",
+  "description": "- Added movie and episode downloads for supported streams, saved directly to Downloads/Phantom Movies on your device.\n- Added offline playback from the Downloads page.\n- Added download progress, pause, resume, cancel, retry, and Hide controls. Downloads continue while the app is in the background.\n- Added quality, audio language, subtitle, and live status details beneath existing server names when available.\n- Server details refresh during playback and automatic failover, and failed servers remain available to retry.\n- Updated notifications to use the Phantom Movies notification icon.",
+  "body": "- Added movie and episode downloads for supported streams, saved directly to Downloads/Phantom Movies on your device.\n- Added offline playback from the Downloads page.\n- Added download progress, pause, resume, cancel, retry, and Hide controls. Downloads continue while the app is in the background.\n- Added quality, audio language, subtitle, and live status details beneath existing server names when available.\n- Server details refresh during playback and automatic failover, and failed servers remain available to retry.\n- Updated notifications to use the Phantom Movies notification icon.",
+  "download_url": "https://github.com/PhantomMovies/phantom-movies-android-app/releases/download/v1.6.0/phantom-movies-v1.6.0.apk",
   "signature_download_url": "",
   "play_url": "market://details?id=com.phantommovies.phantommoviesapp",
   "releases": [
+    {
+      "versionCode": 10602,
+      "version": "1.6.0",
+      "date": "2026-09-10",
+      "description": "- Added movie and episode downloads for supported streams, saved directly to Downloads/Phantom Movies on your device.\n- Added offline playback from the Downloads page.\n- Added download progress, pause, resume, cancel, retry, and Hide controls. Downloads continue while the app is in the background.\n- Added quality, audio language, subtitle, and live status details beneath existing server names when available.\n- Server details refresh during playback and automatic failover, and failed servers remain available to retry.\n- Updated notifications to use the Phantom Movies notification icon.",
+      "body": "- Added movie and episode downloads for supported streams, saved directly to Downloads/Phantom Movies on your device.\n- Added offline playback from the Downloads page.\n- Added download progress, pause, resume, cancel, retry, and Hide controls. Downloads continue while the app is in the background.\n- Added quality, audio language, subtitle, and live status details beneath existing server names when available.\n- Server details refresh during playback and automatic failover, and failed servers remain available to retry.\n- Updated notifications to use the Phantom Movies notification icon."
+    },
     {
       "versionCode": 10598,
       "version": "1.5.12",
@@ -22,13 +29,6 @@
       "date": "2026-09-08",
       "description": "- Restored user accounts and login support.\n- Improved movie and TV stream loading.\n- Added faster server failover.\n- Added backup stream preparation.\n- Added support for both padded and unpadded TV episode numbers.",
       "body": "- Restored user accounts and login support.\n- Improved movie and TV stream loading.\n- Added faster server failover.\n- Added backup stream preparation.\n- Added support for both padded and unpadded TV episode numbers."
-    },
-    {
-      "versionCode": 10595,
-      "version": "1.5.10",
-      "date": "2026-09-04",
-      "description": "- Disabled AdMob ads.",
-      "body": "- Disabled AdMob ads."
     }
   ]
 }
