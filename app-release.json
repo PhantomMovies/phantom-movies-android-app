@@ -1,20 +1,27 @@
 {
-  "created_at": "2026-10-14T23:18:28Z",
-  "versionCode": 10727,
-  "version": "1.7.7",
-  "date": "2026-10-14",
-  "description": "## Playback loading\n\n- Enjoy an updated loading screen with movie and TV artwork, animated title-logo progress, and the Phantom ghost when a title logo is unavailable.\n- See buffering progress as your stream gets ready. Playback begins as soon as enough has loaded.\n- Switch servers while a stream is loading without waiting for it to finish buffering.\n\n## Interface improvements\n\n- Refined the bottom navigation with a softer, transparent background that blends into the content behind your phone’s navigation buttons.\n- Cleaned up the app’s appearance on startup by removing the solid theme-colored strip at the top.\n- Removed unnecessary loading animations above search results for a cleaner search experience.",
-  "body": "## Playback loading\n\n- Enjoy an updated loading screen with movie and TV artwork, animated title-logo progress, and the Phantom ghost when a title logo is unavailable.\n- See buffering progress as your stream gets ready. Playback begins as soon as enough has loaded.\n- Switch servers while a stream is loading without waiting for it to finish buffering.\n\n## Interface improvements\n\n- Refined the bottom navigation with a softer, transparent background that blends into the content behind your phone’s navigation buttons.\n- Cleaned up the app’s appearance on startup by removing the solid theme-colored strip at the top.\n- Removed unnecessary loading animations above search results for a cleaner search experience.",
-  "download_url": "https://github.com/PhantomMovies/phantom-movies-android-app/releases/download/v1.7.7/phantom-movies-v1.7.7.apk",
+  "created_at": "2026-10-15T21:28:25Z",
+  "versionCode": 10728,
+  "version": "1.7.8",
+  "date": "2026-10-15",
+  "description": "## Crash and bug reporting\n\n- Added automatic crash reporting to help us identify problems and improve app reliability. Reports work whether you're signed in or using Phantom as a guest.\n- Added a Reports section in Settings, bringing crash reporting preferences and manual bug reports together in one place.\n- You can now describe an issue and send a bug report directly from the app, including problems with playback, addons, account sync or the interface.\n- Automatic crash reporting is enabled by default. A new introduction explains what reports include, and you can turn automatic reporting off at any time in Settings → Reports.\n- Reports are saved automatically when they cannot be sent and retried in the background.\n\n## Playback loading\n\n- Fixed the title logo remaining faint when a movie or show first starts loading. It now begins filling as stream data arrives, before playback starts.\n- Improved loading progress updates so the logo responds to changes in the playback buffer.",
+  "body": "## Crash and bug reporting\n\n- Added automatic crash reporting to help us identify problems and improve app reliability. Reports work whether you're signed in or using Phantom as a guest.\n- Added a Reports section in Settings, bringing crash reporting preferences and manual bug reports together in one place.\n- You can now describe an issue and send a bug report directly from the app, including problems with playback, addons, account sync or the interface.\n- Automatic crash reporting is enabled by default. A new introduction explains what reports include, and you can turn automatic reporting off at any time in Settings → Reports.\n- Reports are saved automatically when they cannot be sent and retried in the background.\n\n## Playback loading\n\n- Fixed the title logo remaining faint when a movie or show first starts loading. It now begins filling as stream data arrives, before playback starts.\n- Improved loading progress updates so the logo responds to changes in the playback buffer.",
+  "download_url": "https://github.com/PhantomMovies/phantom-movies-android-app/releases/download/v1.7.8/phantom-movies-v1.7.8.apk",
   "apkUrls": {
-    "arm64-v8a": "https://github.com/PhantomMovies/phantom-movies-android-app/releases/download/v1.7.7/phantom-movies-v1.7.7-arm64-v8a.apk",
-    "armeabi-v7a": "https://github.com/PhantomMovies/phantom-movies-android-app/releases/download/v1.7.7/phantom-movies-v1.7.7-armeabi-v7a.apk",
-    "x86_64": "https://github.com/PhantomMovies/phantom-movies-android-app/releases/download/v1.7.7/phantom-movies-v1.7.7-x86_64.apk",
-    "universal": "https://github.com/PhantomMovies/phantom-movies-android-app/releases/download/v1.7.7/phantom-movies-v1.7.7.apk"
+    "arm64-v8a": "https://github.com/PhantomMovies/phantom-movies-android-app/releases/download/v1.7.8/phantom-movies-v1.7.8-arm64-v8a.apk",
+    "armeabi-v7a": "https://github.com/PhantomMovies/phantom-movies-android-app/releases/download/v1.7.8/phantom-movies-v1.7.8-armeabi-v7a.apk",
+    "x86_64": "https://github.com/PhantomMovies/phantom-movies-android-app/releases/download/v1.7.8/phantom-movies-v1.7.8-x86_64.apk",
+    "universal": "https://github.com/PhantomMovies/phantom-movies-android-app/releases/download/v1.7.8/phantom-movies-v1.7.8.apk"
   },
   "signature_download_url": "",
   "play_url": "market://details?id=com.phantommovies.phantommoviesapp",
   "releases": [
+    {
+      "versionCode": 10728,
+      "version": "1.7.8",
+      "date": "2026-10-15",
+      "description": "## Crash and bug reporting\n\n- Added automatic crash reporting to help us identify problems and improve app reliability. Reports work whether you're signed in or using Phantom as a guest.\n- Added a Reports section in Settings, bringing crash reporting preferences and manual bug reports together in one place.\n- You can now describe an issue and send a bug report directly from the app, including problems with playback, addons, account sync or the interface.\n- Automatic crash reporting is enabled by default. A new introduction explains what reports include, and you can turn automatic reporting off at any time in Settings → Reports.\n- Reports are saved automatically when they cannot be sent and retried in the background.\n\n## Playback loading\n\n- Fixed the title logo remaining faint when a movie or show first starts loading. It now begins filling as stream data arrives, before playback starts.\n- Improved loading progress updates so the logo responds to changes in the playback buffer.",
+      "body": "## Crash and bug reporting\n\n- Added automatic crash reporting to help us identify problems and improve app reliability. Reports work whether you're signed in or using Phantom as a guest.\n- Added a Reports section in Settings, bringing crash reporting preferences and manual bug reports together in one place.\n- You can now describe an issue and send a bug report directly from the app, including problems with playback, addons, account sync or the interface.\n- Automatic crash reporting is enabled by default. A new introduction explains what reports include, and you can turn automatic reporting off at any time in Settings → Reports.\n- Reports are saved automatically when they cannot be sent and retried in the background.\n\n## Playback loading\n\n- Fixed the title logo remaining faint when a movie or show first starts loading. It now begins filling as stream data arrives, before playback starts.\n- Improved loading progress updates so the logo responds to changes in the playback buffer."
+    },
     {
       "versionCode": 10727,
       "version": "1.7.7",
